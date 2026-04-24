@@ -36,7 +36,7 @@ Aplikasi ini memerlukan koneksi ke TheMealDB API. Ikuti langkah-langkah di bawah
 2.  Salin dan tempel kode berikut ke dalam file tersebut:
 
     ```env
-    NEXT_PUBLIC_MEAL_API_URL=[https://www.themealdb.com/api/json/v1/1](https://www.themealdb.com/api/json/v1/1)
+    NEXT_PUBLIC_MEAL_API_URL=https://www.themealdb.com/api/json/v1/1
     ```
 
 npm install
