@@ -1,5 +1,9 @@
 Nama : Dwi Kumara Widyatna
 
+## Live Demo
+Aplikasi ini telah di-deploy dan dapat diakses secara publik melalui tautan berikut:
+**[Lihat Demo Aplikasi](https://cmlabs-frontend-parttime-test-brown.vercel.app/)**
+
 # MealApp - CMLabs Frontend Parttime Test
 
 Aplikasi pencarian makanan berbasis bahan (ingredients) yang dibangun menggunakan **Next.js 14**, **Tailwind CSS**, dan **TheMealDB API**. Project ini menerapkan **Atomic Design System** untuk struktur komponen yang modular dan _scalable_.
