@@ -19,7 +19,7 @@ Sebelum menjalankan project, pastikan Anda sudah menginstal:
 - [npm](https://www.npmjs.com/) atau [yarn](https://yarnpkg.com/)
 - Next.js (Versi 16.x)
 
-## 🏁 Petunjuk Menjalankan Project (Local Development)
+## Petunjuk Menjalankan Project (Local Development)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -28,6 +28,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+## Konfigurasi Environment
+
+Aplikasi ini memerlukan koneksi ke TheMealDB API. Ikuti langkah-langkah di bawah ini untuk mengatur variabel lingkungan (environment variables):
+
+1.  Buat file baru bernama **`.env`** di root direktori project (sejajar dengan `package.json`).
+2.  Salin dan tempel kode berikut ke dalam file tersebut:
+
+    ```env
+    NEXT_PUBLIC_MEAL_API_URL=[https://www.themealdb.com/api/json/v1/1](https://www.themealdb.com/api/json/v1/1)
+    ```
+
+npm install
+
 npm run dev
 # or
 yarn dev
